@@ -1,8 +1,8 @@
 // Dummy product data
 let products = [
-    { id: 1, name: "Phone 1", price: "$200", description: "Description for Phone 1" },
-    { id: 2, name: "Phone 2", price: "$125", description: "Description for Phone 2" },
-    { id: 3, name: "Phone 3", price: "$110", description: "Description for Phone 3" },
+    { id: 1, name: "Product 1", price: "$20", description: "Description for Product 1" },
+    { id: 2, name: "Product 2", price: "$30", description: "Description for Product 2" },
+    { id: 3, name: "Product 3", price: "$40", description: "Description for Product 3" },
 ];
 
 // Function to render product cards
