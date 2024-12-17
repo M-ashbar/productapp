@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center the product cards */
+}
+
+.product-card {
+    background-color: #ffffff; /* White background for the card */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.product-name {
+    font-size: 1.5em;
+    color: #333; /* Darker text color */
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #28a745; /* Green color for price */
+}
+
+.product-description {
+    font-size: 0.9em;
+    color: #666; /* Lighter text color for description */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+.delete-button {
+    background-color: #dc3545; /* Bootstrap red */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
